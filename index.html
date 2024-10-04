@@ -2,13 +2,25 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-sacale=1.0">
+        <meta name="viewport" content="width=device-width, initial-sacale=1.0">              
         <title>Cv: Luis Orihuela</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+             
     </head>
     <body>
         <!-- Aplicando html semantico -->
     <header>
-        <h1>CURRICULUM VITAE</h1>
+        <div class="tituloPrincipal">
+            <div>
+                <h1 class="nombrePrincipal">Luis Alberto Orihuela Delgadillo</h1>
+                <span>Analista de sistemas informaticos</span>
+            </div>            
+        </div>             
+        <div id="fotoPerfil">
+            <img id="imgFotoPerfil"  src="images/fotoPerfil.jpg" alt="Foto de perfil">                                  
+        </div>
+    </header>
+    <main>
         <section>     
             <h3>DATOS PERSONALES</h3>         
             <table>
@@ -22,17 +34,12 @@
                         </div>                        
                     </td>
                     <td>
-                        <div style="text-align: right;">
-                            <img src="images/fotoPerfil.jpg" alt="Foto de perfil" style="width: 200px; height: 200px;">                                  
-                        </div>
+                        
                     </td>
                 </tr>
             </table>
                        
         </section>
-
-    </header>
-    <main>
         <section>
             <h3>EXPERIENCIA LABORAL</h3>
             <ul>
@@ -77,11 +84,10 @@
             </ul><br><br>
         </section>
     </main>
-    <footer>
-        <section>
-            <strong>Copyright © Sirlao (Bootcamp 2024 - @Desarrollojovenpy)</strong><br><br>
-            <strong><a href="https://github.com/sirlao/mi-primer-repositorio.git">Reporsitorio Github</a></strong>
-        </section>
+    <footer>      
+        <br>
+        <strong><a href="https://github.com/sirlao/mi-primer-repositorio.git" style="color:white;">Reporsitorio Github</a></strong>   <br><br>    
+        <strong>Copyright © Sirlao (Bootcamp 2024 - @Desarrollojovenpy)</strong>           
     </footer>        
     </body>
 </html>
