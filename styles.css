@@ -7,9 +7,11 @@ header{
     height: 210px;
     background: linear-gradient(to right, rgb(18, 0, 25), rgb(226, 177, 255));
     color: white;
-
+    /*display: flex;
+    align-items: flex-end;*/
     display: flex;
-    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
   }
 
 
@@ -55,8 +57,8 @@ body{
     box-shadow:
   3px 3px rgb(142, 138, 138),
   -1em 0 0.4em white;
+  
 
-  display: block;
 }
 
 .profesionPrincipal{
@@ -79,11 +81,13 @@ h3{
 }
 
 main{
-    display: block;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
 }
 
 footer{
-    padding: 5px;
+    padding: 10px;
     height: 110px;
     background: linear-gradient(to right, rgb(45, 1, 62), rgb(108, 103, 103));
     color: white;
