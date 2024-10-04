@@ -4,9 +4,10 @@
 
 header{
     
-    height: 210px;
+    height: auto;
     background: linear-gradient(to right, rgb(18, 0, 25), rgb(226, 177, 255));
     color: white;
+    text-align: center;
     /*display: flex;
     align-items: flex-end;*/
     display: flex;
@@ -17,15 +18,15 @@ header{
 
   #fotoPerfil{
 
-    width: 200px; 
-    height: 200px;
+    width: 160px; 
+    height: 160px;
     margin: 5px;
     display: block;
   }
 
   #imgFotoPerfil{
-    width: 190px; 
-    height: 190px;
+    width: 150px; 
+    height: 150px;
     border-radius: 20px;
     border-style: solid;
     border-width: 5px;
@@ -47,6 +48,7 @@ header{
 }
 
 body{
+    display: block;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 18%;
@@ -61,8 +63,8 @@ body{
 
 }
 
-.profesionPrincipal{
-
+.divSeccion{
+    
 }
 
 section{
@@ -71,7 +73,9 @@ section{
     border-style: solid;
     border-color: rgb(77, 12, 103);
     border-width: thin;
-    border-radius: 0cqb;
+    border-radius: 15px;
+
+    
 }
 
 h3{
@@ -81,9 +85,9 @@ h3{
 }
 
 main{
-    display: flex;
+    display: block;
     justify-content: space-between;
-    align-items: center;   
+    align-items:  baseline; 
 }
 
 footer{
